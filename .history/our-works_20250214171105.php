@@ -25,7 +25,7 @@
           <div class="carousel-item active">
             <img src="images/our-works/banner.png" class="d-block w-100 h-50" alt="...">
             <div class="carousel-caption text-start d-flex flex-column justify-content-center align-items-start h-50">
-              <h1 class="text-uppercase fw-bold position-relative fs-1 pe-5 display-6"><?= __("наши перевозки"); ?></h1>
+              <h1 class="text-uppercase fw-bold position-relative pe-5 display-6"><?= __("наши перевозки"); ?></h1>
               <!-- <p class="large fs-5 fw-normal display-5 mb-lg-4"><?= __("ваш стратегический партнер в мире международных перевозок. С 15- <br> летним опытом в сфере грузоперевозок, мы предоставляем комплексные решения, адаптированные под задачи каждого клиента. "); ?></p> -->
             </div>
           </div>
@@ -255,63 +255,37 @@
 
     <div class="container-fluid common-container">
 
-      <span class="text-corp text-uppercase d-block fw-medium lh-sm medium-quote mb-lg-5 mb-4"><?= __("партнеры и клиенты <br> taklog industry"); ?></span>
+      <span class="text-corp text-uppercase d-block lh-sm medium-quote mb-lg-5 mb-4"><?= __("наши партнеры"); ?></span>
 
-      <div class="row row-cols-4 gx-md-4 gx-3 gy-4 gy-lg-5">
+      <div class="row gx-md-4 gx-0 gy-4 gy-lg-5">
 
-        <div class="col wow fadeInUp">
+        <div class="col-lg-3 col-md-6 wow fadeInUp">
 
-          <img class="img-fluid mb-3 w-100" src="images/our-works/company1.png" alt="">
-
-        </div>
-
-        <div class="col wow fadeInUp">
-
-          <img class="img-fluid mb-3 w-100" src="images/our-works/company2.png" alt="">
+          <img class="img-fluid mb-3 w-100" src="images/our-works/partner1.png" alt="">
 
         </div>
 
-        <div class="col wow fadeInUp">
+        <div class="col-lg-3 col-md-6 wow fadeInUp">
 
-          <img class="img-fluid mb-3 w-100" src="images/our-works/company3.png" alt="">
-
-        </div>
-
-        <div class="col wow fadeInUp">
-
-          <img class="img-fluid mb-3 w-100" src="images/our-works/company4.png" alt="">
+          <img class="img-fluid mb-3 w-100" src="images/our-works/partner2.png" alt="">
 
         </div>
 
-        <div class="col wow fadeInUp">
+        <div class="col-lg-3 col-md-6 wow fadeInUp">
 
-          <img class="img-fluid mb-3 w-100" src="images/our-works/company5.png" alt="">
-
-        </div>
-
-        <div class="col wow fadeInUp">
-
-          <img class="img-fluid mb-3 w-100" src="images/our-works/company6.png" alt="">
+          <img class="img-fluid mb-3 w-100" src="images/our-works/partner3.png" alt="">
 
         </div>
 
-        <div class="col wow fadeInUp">
+        <div class="col-lg-3 col-md-6 wow fadeInUp">
 
-          <img class="img-fluid mb-3 w-100" src="images/our-works/company7.png" alt="">
-
-        </div>
-
-        <div class="col wow fadeInUp">
-
-          <img class="img-fluid mb-3 w-100" src="images/our-works/company8.png" alt="">
+          <img class="img-fluid mb-3 w-100" src="images/our-works/partner4.png" alt="">
 
         </div>
 
       </div>
 
     </div>
-
-  </section>
 
 
   <?php include('includes/footer.php'); ?>

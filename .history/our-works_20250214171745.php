@@ -25,7 +25,7 @@
           <div class="carousel-item active">
             <img src="images/our-works/banner.png" class="d-block w-100 h-50" alt="...">
             <div class="carousel-caption text-start d-flex flex-column justify-content-center align-items-start h-50">
-              <h1 class="text-uppercase fw-bold position-relative fs-1 pe-5 display-6"><?= __("наши перевозки"); ?></h1>
+              <h1 class="text-uppercase fw-bold position-relative  pe-5 display-6"><?= __("наши перевозки"); ?></h1>
               <!-- <p class="large fs-5 fw-normal display-5 mb-lg-4"><?= __("ваш стратегический партнер в мире международных перевозок. С 15- <br> летним опытом в сфере грузоперевозок, мы предоставляем комплексные решения, адаптированные под задачи каждого клиента. "); ?></p> -->
             </div>
           </div>
@@ -255,7 +255,7 @@
 
     <div class="container-fluid common-container">
 
-      <span class="text-corp text-uppercase d-block fw-medium lh-sm medium-quote mb-lg-5 mb-4"><?= __("партнеры и клиенты <br> taklog industry"); ?></span>
+      <span class="text-corp text-uppercase d-block lh-sm medium-quote mb-lg-5 mb-4"><?= __("партнеры и клиенты taklog industry"); ?></span>
 
       <div class="row row-cols-4 gx-md-4 gx-3 gy-4 gy-lg-5">
 

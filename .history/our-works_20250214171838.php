@@ -255,7 +255,7 @@
 
     <div class="container-fluid common-container">
 
-      <span class="text-corp text-uppercase d-block fw-medium lh-sm medium-quote mb-lg-5 mb-4"><?= __("партнеры и клиенты <br> taklog industry"); ?></span>
+      <span class="text-corp text-uppercase d-block fw-bold lh-sm medium-quote mb-lg-5 mb-4"><?= __("партнеры и клиенты <br taklog industry"); ?></span>
 
       <div class="row row-cols-4 gx-md-4 gx-3 gy-4 gy-lg-5">
 
