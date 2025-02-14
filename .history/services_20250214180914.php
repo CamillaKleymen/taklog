@@ -148,22 +148,18 @@
         <div class="col-lg-8">
           <div class="bg-corp text-white h-100 p-lg-5 p-4">
             <!-- <small class="d-block lh-sm mb-2"><?= __("Полноценный сервис"); ?></small> -->
-            <h1 class="d-block fs-1 fw-medium mb-3"><?= __("Логистика без границ — решения, <br> адаптированные под вас"); ?></h1>
-            <!-- <p class="lh-sm small"><?= __("Taklog Logistics — ваш надежный партнер для быстрых и качественных перевозок грузов в любую точку мира. Мы предлагаем полный спектр услуг, ориентированных на ваши потребности."); ?></p> -->
+            <h1 class="d-block fs-1 fw-semibold mb-3"><?= __("Логистика без границ — решения,  адаптированные под вас"); ?></h1>
+            <p class="lh-sm small"><?= __("Taklog Logistics — ваш надежный партнер для быстрых и качественных перевозок грузов в любую точку мира. Мы предлагаем полный спектр услуг, ориентированных на ваши потребности."); ?></p>
 
-            <div class="row gx-xl-5 gx-lg-4 gx-0 pt-5 px-5 lined-boxes">
+            <div class="row gx-xl-5 gx-lg-4 gx-0 lined-boxes">
               <div class="col-lg-6">
                 <div class="row gx-3">
                   <div class="col-lg-2 col-md-1 col-2">
                     <img class="img-fluid" src="images/services/location.svg" alt="">
                   </div>
                   <div class="col-lg-10 col-md-11 col-10">
-                    <p class="fw-semibold d-block lh-sm mb-1"><?= __("Географический охват"); ?></p>
-                    <ul class="d-block lh-sm text-small">
-                      <li><?= __("•	Перевозки по всему Евросоюзу, Турции, странам СНГ и Центральной Азии"); ?></li>
-                      <li><?= __("•	Организация доставки в труднодоступные регионы и зоны повышенного риска"); ?></li>
-                      <li><?= __("•	Уникальные мультимодальные маршруты"); ?></li>
-                    </ul>
+                    <small class="fw-semibold d-block lh-sm mb-1"><?= __("Географический охват"); ?></small>
+                    <small class="d-block lh-sm text-smallest"><?= __("Страны Евросоюза, Турция"); ?></small>
                   </div>
                 </div>
               </div>
@@ -172,13 +168,9 @@
                   <div class="col-2">
                     <img class="img-fluid" src="images/services/safety.svg" alt="">
                   </div>
-                  <div class="col-lg-10 col-md-11 col-10">
-                    <p class="fw-semibold d-block lh-sm mb-1"><?= __("Инновационные технологии"); ?></p>
-                    <ul class="d-block lh-sm text-small">
-                      <li><?= __("•	GPS-мониторинг для полного контроля за грузом"); ?></li>
-                      <li><?= __("•	Интеграция с онлайн-платформами для отслеживания и управления перевозками"); ?></li>
-                      <li><?= __("•	Электронный документооборот для ускорения обработки заказов"); ?></li>
-                    </ul>
+                  <div class="col-10">
+                    <small class="fw-semibold d-block lh-sm mb-1"><?= __("100% доверие"); ?></small>
+                    <small class="d-block lh-sm text-smallest"><?= __("Мы верим в силу партнерства и стремимся к совместному процветанию"); ?></small>
                   </div>
                 </div>
               </div>
@@ -187,13 +179,9 @@
                   <div class="col-2">
                     <img class="img-fluid" src="images/services/24.svg" alt="">
                   </div>
-                  <div class="col-lg-10 col-md-11 col-10">
-                    <p class="fw-semibold d-block lh-sm mb-1"><?= __("24/7 Поддержка"); ?></p>
-                    <ul class="d-block lh-sm text-small">
-                      <li><?= __("•	Круглосуточная связь с персональным менеджером"); ?></li>
-                      <li><?= __("•	Цифровая логистика: точные данные о передвижении вашего груза"); ?></li>
-                      <li><?= __("•	Быстрая реакция на любые изменения или запросы"); ?></li>
-                    </ul>
+                  <div class="col-10">
+                    <small class="fw-semibold d-block lh-sm mb-1"><?= __("24/7 Поддержка"); ?></small>
+                    <small class="d-block lh-sm text-smallest"><?= __("Оперативность превыше всего: ответ в кратчайшие сроки."); ?></small>
                   </div>
                 </div>
               </div>
@@ -202,13 +190,9 @@
                   <div class="col-2">
                     <img class="img-fluid" src="images/services/medal.svg" alt="">
                   </div>
-                  <div class="col-lg-10 col-md-11 col-10">
-                    <p class="fw-semibold d-block lh-sm mb-1"><?= __("Персональные и профессиональные решения для сложных задач"); ?></p>
-                    <ul class="d-block lh-sm text-small">
-                      <li><?= __("•	Система скидок и спецпредложений для постоянных клиентов"); ?></li>
-                      <li><?= __("•	Индивидуальный подход к каждому клиенту"); ?></li>
-                      <li><?= __("•	Персонализированные решения для снижения логистических затрат"); ?></li>
-                    </ul>
+                  <div class="col-10">
+                    <small class="fw-semibold d-block lh-sm mb-1"><?= __("Гибкость"); ?></small>
+                    <small class="d-block lh-sm text-smallest"><?= __("Мы подходим к каждому клиенту индивидуально, независимо от его размера и специфики бизнеса."); ?></small>
                   </div>
                 </div>
               </div>
