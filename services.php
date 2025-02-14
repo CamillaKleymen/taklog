@@ -6,29 +6,39 @@
   <body>
     <?php $active = 2; ?>
     <?php include('includes/header.php'); ?>
+   
     <!-- Banner -->
-    <section class="services-banner position-relative py-5">
-      <div class="container-fluid common-container h-100">
-        <div class="text-white box d-flex flex-column justify-content-end align-items-start h-100">
-          <h1 class="text-uppercase"><?= __("Услуги");?></h1>
-          <p class="lh-sm small mb-lg-4 with-arrow position-relative"><?= __("Более 30 лет компания Taklog является надежным партнером в области логистики и экспедирования грузов.");?></p>
-          <a class="btn btn-primary rounded-1" href="/about"><?= __("Подробнее о нас");?><i class="bi bi-arrow-down-right ms-4"></i></a>
+  <section class="index-banner position-relative">
+    <div class="container-fluid px-0">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/services/banner.png" class="d-block w-100 h-50" alt="...">
+            <div class="carousel-caption text-start d-flex flex-column justify-content-center align-items-start h-50">
+              <h1 class="text-uppercase fw-bold position-relative fs-1 pe-5 display-6"><?= __("Услуги"); ?></h1>
+              <p class="large fs-5 fw-normal display-5 mb-lg-4"><?= __("Более 30 лет компания Taklog является надежнымпартнером в области логистики и экспедирования грузов. "); ?></p>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+
+
+
     <!-- Services -->
     <section class="pb-4 services-section wow fadeInUp">
       <div class="container-fluid common-container">
         <div class="d-lg-block d-none">
           <ul class="nav nav-tabs nav-justified border-0" role="tablist">
             <li class="nav-item" role="presentation">
-              <a class="nav-link active" data-bs-toggle="tab" href="#airTransportation" aria-selected="true" role="tab"><?= __("Авиа-перевозка");?></a>
+              <a class="nav-link active" class="-bold" data-bs-toggle="tab" href="#airTransportation" aria-selected="true" role="tab"><?= __("Автомобильные перевозки");?></a>
             </li>
             <li class="nav-item" role="presentation">
-              <a class="nav-link" data-bs-toggle="tab" href="#roadTransportation" aria-selected="false" tabindex="-1" role="tab"><?= __("Автомобильная перевозка");?></a>
+              <a class="nav-link" data-bs-toggle="tab" href="#roadTransportation" aria-selected="false" tabindex="-1" role="tab"><?= __("Авиационные перевозки");?></a>
             </li>
             <li class="nav-item" role="presentation">
-              <a class="nav-link" data-bs-toggle="tab" href="#railwayTransportation" aria-selected="false" tabindex="-1" role="tab"><?= __("Железно-дорожная перевозка");?></a>
+              <a class="nav-link" data-bs-toggle="tab" href="#railwayTransportation" aria-selected="false" tabindex="-1" role="tab"><?= __("Железнодорожные перевозки");?></a>
             </li>
           </ul>
           <div id="myTabContent" class="tab-content pt-lg-4 py-3">
@@ -39,7 +49,7 @@
                 </div>
                 <div class="col-lg-4">
                   <div>
-                    <span class="fw-medium text-red d-block lh-sm fs-5 mb-lg-3 mb-2"><?= __("Авиа-перевозка");?></span>
+                    <span class="fw-medium text-red d-block lh-sm fs-5 mb-lg-3 mb-2"><?= __("Автомобильные перевозки");?></span>
                     <p class="lh-sm text-gray small"><?= __("Авиаперевозки – это способ транспортировки грузов и пассажиров с использованием воздушных судов. Это один из самых быстрых и эффективных видов транспорта, особенно для доставки товаров на дальние расстояния.");?></p>
                     <div class="bg-fog p-3 p-lg-4">
                       <p class="lh-sm text-gray small"><?= __("Наш опыт в области перевозок и многолетнее сотрудничество с передовыми компаниями дает вам возможность получить быструю и безопасную доставку вашего груза практически в любой точке мира.");?></p>
