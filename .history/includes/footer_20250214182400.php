@@ -45,8 +45,8 @@
       </div>
       <div class="col-lg-3">
         <div>
-          <span class="fw-semibold text-corp d-block mb-3"><?= __("Консультация");?></span>
-          <p class="text-black lh-sm small"><?= __("Позвоните нам и мы будем рады оказать вам консультационную поддержку.");?></p>
+          <span class="fw-semibold text-corp d-block mb-3"><?= __("Контакты");?></span>
+          <p class="text-black lh-sm small"><?= __("Есть вопросы? Позвоните нам и мы будет рады оказать вам консультационную поддержку.");?></p>
           <a class="btn btn-primary rounded-1" href="/offices"><?= __("Свяжитесь с нами");?></a>
           <small class="d-block lh-sm text-smallest pt-3"><?= __("Подписываясь, вы соглашаетесь с нашей Политикой конфиденциальности и даете согласие на получение обновлений от нашей компании.");?></small>
         </div>

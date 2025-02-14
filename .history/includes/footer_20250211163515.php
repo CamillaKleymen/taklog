@@ -29,24 +29,28 @@
         <span class="fw-semibold text-corp d-block mb-3"><?= __("Контакты");?></span>
         <div class="mb-3">
           <small class="text-gray d-block lh-sm mb-2"><?= __("Телефон");?></small>
-          <small class="d-block text-black lh-sm"><a class="text-decoration-none text-dark" href="tel:+998 77 007 11 18">+998 77 007 11 18</a></small>
+          <small class="d-block text-black lh-sm"><a class="text-decoration-none text-dark" href="tel:+998712550508">+998 71 255 05 08</a></small>
+          <small class="d-block text-black lh-sm"><a class="text-decoration-none text-dark" href="tel:+998770041118">+998 77 004 11 18</a></small>
+          <small class="d-block text-black lh-sm"><a class="text-decoration-none text-dark" href="tel:+998770071118">+998 77 007 11 18</a></small>
         </div>
         <div class="mb-3">
           <small class="text-gray d-block lh-sm mb-2"><?= __("Почта");?></small>
           
-          <small class="d-block text-black lh-sm"><a class="text-decoration-none text-dark" href="mailto:info@taklog.com">info@taklog.com</a></small>
+          <small class="d-block text-black lh-sm"><a class="text-decoration-none text-dark" href="mailto:info@taklogindustry.com">info@taklogindustry.com</a></small>
+          <small class="d-block text-black lh-sm"><a class="text-decoration-none text-dark" href="mailto:murad@taklog.uz">murad@taklog.uz</a></small>
+          <small class="d-block text-black lh-sm"><a class="text-decoration-none text-dark" href="mailto:shakhzod@taklog.uz">shakhzod@taklog.uz</a></small>
         </div>
         <div class="">
           <small class="text-gray d-block lh-sm mb-2"><?= __("Адрес");?></small>
           <small class="d-block text-black lh-sm">
-            <a class="text-dark text-decoration-none" target="_blank" href="https://maps.app.goo.gl/US34J9JCebyizdBx9"><?= __("Узбекистан, Ташкент, ул. Абдуллы Каххара, 56А");?></a>
+            <a class="text-dark text-decoration-none" target="_blank" href="https://www.google.com/maps?q=41.297956,69.284859&ll=41.297956,69.284859&z=16"><?= __("Узбекистан, г.Ташкент, улица Амира Темура, 45/1");?></a>
           </small>
         </div>
       </div>
       <div class="col-lg-3">
         <div>
-          <span class="fw-semibold text-corp d-block mb-3"><?= __("Консультация");?></span>
-          <p class="text-black lh-sm small"><?= __("Позвоните нам и мы будем рады оказать вам консультационную поддержку.");?></p>
+          <span class="fw-semibold text-corp d-block mb-3"><?= __("Контакты");?></span>
+          <p class="text-black lh-sm small"><?= __("Есть вопросы? Позвоните нам и мы будет рады оказать вам консультационную поддержку.");?></p>
           <a class="btn btn-primary rounded-1" href="/offices"><?= __("Свяжитесь с нами");?></a>
           <small class="d-block lh-sm text-smallest pt-3"><?= __("Подписываясь, вы соглашаетесь с нашей Политикой конфиденциальности и даете согласие на получение обновлений от нашей компании.");?></small>
         </div>

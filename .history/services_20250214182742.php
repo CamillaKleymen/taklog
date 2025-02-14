@@ -17,7 +17,7 @@
             <img src="images/services/banner.png" class="d-block w-100 h-50" alt="...">
             <div class="carousel-caption text-start d-flex flex-column justify-content-center align-items-start h-50">
               <h1 class="text-uppercase fw-medium position-relative fs-1 pe-5 display-1"><?= __("Услуги"); ?></h1>
-              <p class="large fs-5 fw-normal display-5 mb-lg-4"><?= __("Более 30 лет компания Taklog является надежным <br> партнером в области логистики и экспедирования грузов. "); ?></p>
+              <p class="large fs-5 fw-normal display-5 mb-lg-4"><?= __("Более 30 лет компания Taklog является надежным  партнером в области логистики и экспедирования грузов. "); ?></p>
             </div>
           </div>
         </div>
