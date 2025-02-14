@@ -25,7 +25,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="images/offices/banner.png" class="d-block w-100 h-25" alt="...">
-            <div class="carousel-caption text-start d-flex flex-column justify-content-center align-items-start h-50">
+            <div class="carousel-caption text-start d-flex flex-column justify-content-center align-items-start h-25">
               <h1 class="text-uppercase fw-bold position-relative fs-1 pe-5 display-6"><?= __("Офисы TAKLOG INDUSTRY – "); ?></h1>
               <p class="large fs-5 fw-normal display-5 mb-lg-4"><?= __("оперативность и поддержка всегда рядом "); ?></p>
             </div>

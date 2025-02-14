@@ -24,7 +24,7 @@
       <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/offices/banner.png" class="d-block w-100 h-25" alt="...">
+            <img src="images/offices/banner.png" class="d-block w-100 h-50" alt="...">
             <div class="carousel-caption text-start d-flex flex-column justify-content-center align-items-start h-50">
               <h1 class="text-uppercase fw-bold position-relative fs-1 pe-5 display-6"><?= __("Офисы TAKLOG INDUSTRY – "); ?></h1>
               <p class="large fs-5 fw-normal display-5 mb-lg-4"><?= __("оперативность и поддержка всегда рядом "); ?></p>
@@ -43,17 +43,17 @@
       <div class="row gx-xl-5 gx-lg-4 gx-0 gy-4 gy-md-5">
         <div class="col-lg-5 wow fadeInLeft">
           <div class="">
-            <div class="mb-5">
+            <div class="">
               <h2><?= __("Узбекистан"); ?></h2>
               <p class="lh-sm text-gray">
-                <?= __("г. Ташкент, ул. Абдуллы Каххара, 56А"); ?><br />
-                shakhzod@taklog.uz<br />
-                <a class="text-decoration-none text-dark" href="tel:+998712550508">+998 71 255 05 08</a><br />
-                <a class="text-decoration-none text-dark" href="tel:+998770041118">+998 77 004 11 18</a><br />
-                <a class="text-decoration-none text-dark" href="tel:+998770071118">+998 77 007 11 18</a><br />
+                <?= __("г. Ташкент, ул. Абдуллы Каххара, 56А"); ?>
+                shakhzod@taklog.uz
+                <a class="text-decoration-none text-dark" href="tel:+998712550508">+998 71 255 05 08</a>
+                <a class="text-decoration-none text-dark" href="tel:+998770041118">+998 77 004 11 18</a>
+                <a class="text-decoration-none text-dark" href="tel:+998770071118">+998 77 007 11 18</a>
               </p>
             </div>
-            <div class="mt-5 mb-5">
+            <div class="">
               <h2><?= __("Германия"); ?></h2>
               <p class="lh-sm text-gray">
                 TAKLOG International<br>
@@ -63,7 +63,7 @@
                 info@taklogindustry.com<br>
               </p>
             </div>
-            <div class="mt-5">
+            <div class="">
               <h2><?= __("Турция"); ?></h2>
               <p class="lh-sm text-gray">
                 Kültür Mah. İsmet İnönü Blv. Altın Anahtar Apt.<br>
