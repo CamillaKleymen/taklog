@@ -18,19 +18,19 @@
             <div class="collapse navbar-collapse" id="navbarColor01">
               <ul class="navbar-nav me-auto text-center">
                 <li class="nav-item">
-                  <a class="nav-link <?= $active == 0 ? 'active' : ''; ?>" href="/index"><?= __("Главная"); ?></a>
+                  <a class="nav-link <?= $active == 0 ? 'active' : ''; ?>" href="/index.php"><?= __("Главная"); ?></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link <?= $active == 1 ? 'active' : ''; ?>" href="/about.php"><?= __("О компании"); ?></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link <?= $active == 2 ? 'active' : ''; ?>" href="/services"><?= __("Услуги"); ?></a>
+                  <a class="nav-link <?= $active == 2 ? 'active' : ''; ?>" href="/services.php"><?= __("Услуги"); ?></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link <?= $active == 3 ? 'active' : ''; ?>" href="/our-works"><?= __("Наши работы"); ?></a>
+                  <a class="nav-link <?= $active == 3 ? 'active' : ''; ?>" href="/our-works.php"><?= __("Наши перевозки"); ?></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link <?= $active == 4 ? 'active' : ''; ?>" href="/offices"><?= __("Офисы"); ?></a>
+                  <a class="nav-link <?= $active == 4 ? 'active' : ''; ?>" href="/offices.php"><?= __("Офисы"); ?></a>
                 </li>
               </ul>
               
